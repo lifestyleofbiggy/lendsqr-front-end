@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css');
+
+body {
+  margin: 0;
+  font-family: 'Work Sans', sans-serif;
+  background-color: #f5f6fa;
+}
+
+.top-right {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  padding: 20px;
+  background-color: #ffffff;
+  justify-content: flex-end;
+}
+
+.search-container {
+  display: flex;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.search-container input {
+  padding: 10px 12px;
+  border: none;
+  outline: none;
+  font-size: 14px;
+  width: 220px;
+  font-family: inherit;
+}
+
+.search-container button {
+  background-color: #39cdcc;
+  border: none;
+  padding: 0 16px;
+  cursor: pointer;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.docs-link {
+  color: #213f7d;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.bell-icon {
+  font-size: 18px;
+  color: #213f7d;
+  cursor: pointer;
+}
+
+.profile-section {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.profile-pic {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.username {
+  font-weight: 500;
+  color: #213f7d;
+}
+.top-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #fff; /* or your preferred bg color */
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  font-family: 'Work Sans', sans-serif;
+}
+
+.logo-container {
+  flex-shrink: 0;
+}
+
+.logo {
+  height: 40px; /* adjust logo size */
+  cursor: pointer;
+}
+
+.top-right {
+  display: flex;
+  align-items: center;
+  gap: 20px; /* space between items */
+}
+
+.search-container input {
+  padding: 5px 10px;
+  font-size: 14px;
+}
+
+.search-container button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 5px;
+  font-size: 16px;
+  color: #555;
+}
+
+.docs-link {
+  font-weight: 600;
+  color: #333;
+  text-decoration: none;
+}
+
+.bell-icon {
+  font-size: 18px;
+  cursor: pointer;
+  color: #de2e2e;
+}
+
+.profile-section {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+}
+
+.profile-pic {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+/* Container Layout */
+.dashboard-container {
+  display: flex;
+  height: 160PX;
+  border: 1PX solid #ccc;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Sidebar Styling */
+.sidebar {
+  width: 220px;
+  background-color: #1d3557;
+  color: white;
+  padding: 20px;
+}
+
+/* Main Content Area */
+.main-content {
+  flex: 1;
+  background-color: #f4f6f8;
+  padding: 40px;
+  display: flex;
+  justify-content: flex-start; /* Aligns card to the left inside content area */
+  align-items: flex-start;
+}
+
+/* Stat Card */
+/* .stat-card {
+  background-color: white;
+  width: 200px; 
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.icon-circle {
+  background-color: #f4e7ff;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.icon-circle img {
+  width: 20px;
+  height: 20px;
+  filter: invert(25%) sepia(99%) saturate(7461%) hue-rotate(280deg) brightness(104%) contrast(101%);
+}
+
+.label {
+  font-size: 12px;
+  color: #666;
+  margin: 0;
+}
+
+.number {
+  font-size: 20px;
+  font-weight: bold;
+  color: #1d3557;
+  margin: 0;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #f0f2f5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* .card {
+  width: 220px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.05);
+  text-align: left;
+} */
+
+/*   */
